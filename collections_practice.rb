@@ -29,7 +29,7 @@ def find_a (array)
 end
 
 def sum_array(array)
-  i = 0
-  
-  array.each_with_index {|num|}
+  sum = 0
+  array.each {|num| sum+=num}
+  sum
 end
